@@ -1,0 +1,230 @@
+* {margin:0px; padding:0px;}
+
+body {
+	font-family:AvantGardeBookCn, sans-sarif;
+	font-size:12px;
+}
+#main-container { background:url(../../VIEW2/HTML/images/background.jpg) top center no-repeat;
+ 	-webkit-background-size: cover;
+    -moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom:55px; 
+	}
+
+#main-container, #footer-section {border:1px solid #0000000;}
+
+
+input:-moz-placeholder, textarea:-moz-placeholder { color: #000000; } /* for placeholder Firefox >19 */
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {  color: #000000;  } /* for placeholder Firefox <19*/
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder { color: #000000; }  /* for placeholder Chrome */
+input::-moz-placeholder, textarea::-moz-placeholder { color: #000000; }   /* for placeholder Internet Explorer <10*/
+
+a {text-decoration:none;}
+
+
+/* Pointer Section */
+input[type="submit"], .customers-list .icons li, .blocks-grid .block {cursor:pointer;}
+
+
+
+
+/* Header Section */
+#header {padding-top:20px}
+#header .logo {font-size:48px; font-family:AvantGardeExtraLight, sans-sarif; color:#ffffff;}
+#header .logo .bold {font-family:AvantGardeBookCn, sans-sarif;}
+
+#header .category {font-family:AvantGardeBookCn, sans-sarif; font-size:18px; color:#063954; margin-left:30px;}
+#header .user-info {float:right; text-align:right;}
+#header .user-links a {color:#ffffff;}
+#header .user-links a.logout {color:#ff584c;}
+
+
+/* Page Content */
+#page-content {position:relative;}
+
+
+
+br.clear {clear:both; display:block; height:0px;}
+
+.h-center {margin:0px auto !important;}
+.center-frame {width:1004px; margin:0px auto;}
+
+.box-yellow {background:#febd1a;}
+.box-blue {background:#063954;}
+
+/* Textboxes */
+.white-txtbx {background:#ffffff; border:none;}
+
+/* Buttons */
+.form-login .buttons { margin-right:74px;}
+.buttons.right {text-align:right;}
+
+.buttons .login-btn {background:none; border:none; font-family:AvantGardeBookCn, sans-sarif; font-size:36px; display:inline-block; margin:20px 0 5px 0;}
+
+/* Common Links */
+a.forgot-password {font-family:AvantGardeBookCn, sans-sarif; font-size:14px; color:#000000; text-decoration:none;}
+
+
+
+/* Box Login */
+.box {width:586px; padding:35px; margin-top:10px !important;}
+.box.login {padding:35px 35px 25px 35px;}
+.login {min-height:245px; margin-top:145px !important;}
+.box .form-login {margin:30px 0 0 0;}
+.box .white-txtbx {width:304px; height:28px; }
+.box.login label { font-family:AvantGardeBookCn, sans-sarif; width:187px; color:#ffffff; font-size:30px; display:inline-block; text-align:right; position:relative; top:4px; margin-right:15px;}
+.signup {font-family:AvantGardeBookCn, sans-sarif; font-size:18px; color:#ffffff; text-align:center; margin-top:40px;}
+.signup a {color:#ffffff;}
+
+
+.box .nrml-label {font-family:AvantGardeBookCn, sans-sarif; color:#000000; text-align:left; font-size:14px; display:inline-block; margin-left:15px;}
+
+
+/* Box Register */
+.box.register {width:573px; padding:35px 41px;}
+.register .white-txtbx {font-family:AvantGardeBookCn, sans-sarif; color:#000000; width:185px; margin-bottom:8px; padding:0 15px;}
+.register .box-left {width:214px; float:left; margin-right:8px;}
+.register .box-right {width:350px; float:left;}
+.register textarea {width:320px; height:90px; padding:5px 15px; margin-bottom:8px; border:none;}
+
+.register .radio-group {background:#ffffff; margin-top:-1px; margin-bottom:8px;}
+.register .nrml-label {padding:5px 0; top:0; color:#000000; width:80px; }
+.register .fonttype01 {padding:0 20px 0 3px;}
+
+.register .link-btn {color:#ffffff !important; padding: 5px 30px;}
+
+
+
+/* Box Retrieve Password */
+.box.retrieve {padding:19px 35px;}
+.retrieve label { font-family:AvantGardeBookCn, sans-sarif; width:187px; color:#ffffff; font-size:18px; display:inline-block; text-align:right; position:relative; top:2px; margin-right:15px;}
+
+
+.fonttype01 {font-family:AvantGardeBookCn, sans-sarif; color:#000000; text-align:left; font-size:14px;}
+
+/* Forground Color Codes */
+.white {color:#FFFFFF !important;}
+
+/* Background Colors */
+.green-bg {background:#91c349;}
+.trans-bg {background:none !important;}
+
+/* Link buttons */
+.link-btn {font-size:14px; font-family:AvantGardeBookCn, sans-sarif; border:none; border: none; padding: 5px 15px; }
+.retrieve .link-btn {color:#ffffff; font-size:18px;}
+
+
+
+
+
+/* Customer's List Page */
+h1.page-title {font-family:AvantGardeDmCn, sans-sarif; color:#063954; font-size:60px; margin-top:20px; font-weight:normal;}
+
+.customers-list .table {font-family:AvantGardeBookCn, sans-sarif; font-size:30px; color:#ffffff; margin:95px 0;}
+.customers-list .table .row.heading .cell {color:#063954;}
+
+
+.customers-list .info-text, .txt-nrml {font-family:AvantGardeBookCn, sans-sarif; font-size:18px; color:#ffffff;}
+
+.customers-list .icons {position:absolute; right:0; top:0; list-style:none;}
+.customers-list .icons li {background:url(../images/circle-icon-bg.png) no-repeat; width:77px; height:77px; display:inline-block; margin-left:8px;}
+.customers-list .icons li.light-blue {background-position:0 0;}
+.customers-list .icons li.blue {background-position:-77px 0;}
+.customers-list .icons li.green {background-position:-154px 0;}
+.customers-list .icons li.red {background-position:-231px 0;}
+
+.customers-list .icons li span {background:url(../images/icons.png) no-repeat; display:inline-block; width:45px; height:45px; margin:17px 0 0 17px;}
+
+.customers-list .icons .roles {background-position:-10px -6px !important;}
+.customers-list .icons .add-news {background-position:-68px -6px !important;}
+.customers-list .icons .add-customer {background-position:-124px -6px !important;}
+.customers-list .icons .global-alert {background-position:-178px -6px !important;}
+
+
+
+
+/* Landing Page */
+.landing-page {margin-top:75px; min-height:664px;}
+.landing-page .customer-details {width:448px; max-height:448px; background:#04add2; padding:25px; color:#ffffff; float:left;} /* height is set to 498px to hold the height to a certain level*/
+.landing-page .customer-details .title {font-size:48px; color:#063954; margin-bottom:55px;}
+.landing-page .customer-details .sub-title {font-size:30px;}
+.landing-page .customer-details p {font-size:24px; margin-bottom:19px;}
+.landing-page .customer-details p .content-heading {color:#063954;}
+
+/*.landing-page .customer-details .skype_c2c_text_span {color:#ffffff !important;}*/
+.blocks-grid {float:left; width:498px; position:relative; font-size:30px; text-align:center; color:#ffffff;}
+.blocks-grid .block { width:166px; height:166px; position:absolute;}
+
+.blocks-grid .one {top:0; left:0px;}
+.blocks-grid .two {top:0; left:166px;}
+.blocks-grid .three {top:0; left:332px;}
+.blocks-grid .four {top:166px; left:0px;}
+.blocks-grid .five {top:166px; left:166px;}
+.blocks-grid .six {top:166px; left:332px;}
+.blocks-grid .seven {top:332px; left:0px;}
+.blocks-grid .eight {top:332px; left:166px;}
+.blocks-grid .nine {top:332px; left:332px;}
+.blocks-grid .ten {top:498px; left:0px;}
+.blocks-grid .eleven {top:498px; left:166px;}
+.blocks-grid .tweleve {top:498px; left:332px;}
+
+
+
+.blocks-grid .icons {background:url(../images/icons-dashboard.png) no-repeat; width:105px; height:105px; display:block; margin:0px auto; margin-top:5px;}
+.blocks-grid .two .icons {background-position:-105px 5px;}
+.blocks-grid .three .icons {background-position:-210px 5px;}
+.blocks-grid .four .icons {background-position:-315px 5px;}
+.blocks-grid .five .icons {background-position:-420px 5px;}
+.blocks-grid .six .icons {background-position:0px -105px;}
+.blocks-grid .seven .icons {background-position:-105px -105px;}
+.blocks-grid .eight .icons {background-position:-210px -105px;}
+.blocks-grid .eleven .icons {background-position:-315px -105px;}
+
+
+.blocks-grid .one, .blocks-grid .six {background:#063954;}
+.blocks-grid .two, .blocks-grid .seven {background:#90c34a;}
+.blocks-grid .three {background:#ffbd16;}
+.blocks-grid .four, .blocks-grid .eight {background:#acdfec;}
+.blocks-grid .five, .blocks-grid .eleven {background:#04add2;}
+
+
+
+
+
+
+
+/* Table with div tag */
+.table { display:table; width:100%;}
+.table .row {display:table-row;}
+.table .row .cell {display:table-cell;}
+
+
+
+/* Roles and Permissions */
+
+.roles-permissions {background:#ffffff; padding:15px 20px; margin-top:95px; font-size:18px;}
+.roles-permissions h1 {font-size:30px; font-weight:normal; color:#063954; padding-bottom:10px;}
+.roles-permissions .row.heading {color:#a3a4a4;}
+.roles-permissions .whitebg-content-holder {min-height:383px;}
+
+
+
+.message {font-size:14px;}
+.bottom {position:absolute; bottom:10px;}
+.message.warning {color:#ff1100;}
+
+
+
+
+
+
+/* Footer section starts here */
+#footer-section {width:100%; height:350px; bottom:0; background:#063954;}
+#footer-section .center-frame .view-about {background:url(../images/evry-logo-footer.png) no-repeat right 30px; padding-right:160px; padding-top:35px;}
+#footer-section section {font-family:AvantGardeBookCn, sans-sarif; color:#ffffff; padding-top:10px;}
+#footer-section section h1 {font-size:24px; font-weight:normal; color:#ffffff; margin-bottom:10px;}
+#footer-section .view-about p {font-size:14px; padding-top:5px;}
+
+.notification {font-family:AvantGardeBookCn, sans-sarif; color:#373534; font-size:18px; padding:15px 20px;}
+.yellow {background:#ffbd16;}

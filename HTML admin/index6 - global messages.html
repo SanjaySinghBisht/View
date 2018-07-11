@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VIEW - Dashboard</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/fonts.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+	<div id="main-container">
+	    <div class="center-frame">
+        	<header id="header">
+            	<span class="logo"><span class="bold">VIEW</span>administration</span>
+                <span class="category">Sports Illustrated</span>
+                <div class="user-info txt-nrml">
+                	Michael Scheel<br>
+                    <div class="user-links"><a href="#">Change User</a> / <a href="#" class="logout">Log out</a></div>
+                </div>
+            </header>
+			
+            <ul class="nav-01">
+                <li><a href="#">op msg</a></li>
+                <li>/</li>
+                <li><a href="#">message</a></li>
+                <li>/</li>
+                <li><a href="#">users</a></li>
+                <li>/</li>
+                <li><a href="#">links</a></li>
+                <li>/</li>
+                <li><a href="#">faq</a></li>
+                <li>/</li>
+                <li><a href="#">documents</a></li>
+                <li>/</li>
+                <li><a href="#">EVRY users</a></li>
+                <li>/</li>
+                <li><a href="#">statistics</a></li>
+            </ul>
+            <br class="clear">
+            <div id="page-content">
+            	<!-- Customers List Section Starts -->
+                <div  class="roles-permissions with-nav">
+                <div class="whitebg-content-holder">
+                	 <h1>Add global alert message</h1>
+                	 
+                     <div class="message-box">
+                     	<label>Message</label>
+                        <input type="text" name="text" placeholder="" class="txtbx bk-border">
+                        <span class="note">
+Message will be shown for ALL VIEW customers.<br />
+Message will appear on customers login screen and as red ribbon when logged in.<br /><br />
+
+Global alert message has no expiry date and has to be stopped/changed manually here below!<br />
+
+                        </span> 
+                     </div>
+                     
+                     
+                     	
+                        <div class="buttons bottom-right">
+                       		<input type="submit" name="submit" class="link-btn green-bg white" value="Submit" > 	
+                        </div>
+                        
+                     </div>
+                </div>
+                
+                <div class="white-box2 global-messages">
+                	<span class="msg-title-active">Active global alert message</span>
+                    <div class="table active-messages scrollable">
+                     	<div class="row heading">
+                        	<div class="cell title">Title</div>
+                            <div class="cell added-date">added</div>
+                            <div class="cell edit"></div>
+                            <div class="cell stop"></div>
+                        </div>
+                        
+                        <div class="row">
+                        	<div class="cell title">EVRY phone system is currently down. Please contact us via email. We are working on finding a solution!</div>
+                            <div class="cell added-date">31.10.2013 12:54</div>
+                            <div class="cell edit">Edit</div>
+                            <div class="cell stop">Stop</div>
+                        </div>
+                        
+                        
+                        
+	                  </div>
+                    
+                    <span class="msg-title-active old">Old Messages</span>
+                    <!-- Old Messages -->
+                    <div class="table active-messages old scrollable">
+                     	<div class="row heading">
+                        	<div class="cell title">Title</div>
+                            <div class="cell added-date">added</div>
+                            <div class="cell stop-date">stoped</div>
+                        </div>
+                        
+                        <div class="row">
+                        	<div class="cell title">Major incident. Telenor reporting common network error!</div>
+                            <div class="cell added-date">31.10.2013 12:54</div>
+                            <div class="cell stop-date">31.10.2013 12:54</div>
+
+                        </div>
+                        <div class="row">
+                        	<div class="cell title">Major incident - Cables have been cut in trondheim - network down, supplier working on fix!</div>
+                            <div class="cell added-date">31.10.2013 12:54</div>
+                            <div class="cell stop-date">31.10.2013 12:54</div>
+
+                        </div>
+                         
+                        
+                        
+	                  </div>
+                    <div class="message bottom warning">PS - here we show the last 10 messages only.</div>
+                </div>
+            </div>   
+                <!-- Customer List Section Ends -->
+            </div>
+        </div>
+    </div>
+	<footer id="footer-section">
+     <div class="center-frame">
+     		<section class="view-about" style="display:none;">
+            	<h1>About VIEW2</h1>
+				<p>
+                Welcome to VIEW, EVRY's customer portal. Once you have logged in, you will find access according to your assigned role.<br />
+                Should you have any questions, please do not hesitate to take contact with our helpdesk.<br /> They will provide you with the correct guidance.
+                </p>
+                <p>
+                Should you have any feedback or any ideas to further development, Please send them to Micheal Scheel.
+                <p>
+            </section>
+            
+            <section class="view-dashboard" style="display:none;">
+            <h1>ACTIVE message at customer</h1>
+            <p class="notification yellow">EVRY INFORMS: Customer specific notice - will only be showing if there are any customer specific alerts to be shown...</p>
+            </section>
+            
+     
+     </div>
+    </footer>
+</body>
+</html>

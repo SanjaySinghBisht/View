@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VIEW - Dashboard</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/fonts.css" rel="stylesheet" type="text/css">
+<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript">
+	$(document).ready( function() {
+		$(".shadow-popup").hide();
+		$(".popup-win").hide();
+		
+		$(".btn-popup").click(function() {
+				$(".shadow-popup").show();
+				$(".popup-win").show();
+			
+		});
+		$(".close").click( function () {
+			$(".shadow-popup").hide();
+		$(".popup-win").hide();
+		});
+	});
+</script>
+</head>
+
+<body>
+<div id="customer-view">
+  <section id="view1" class="logged-in">
+    <div class="center-frame">
+      <header id="header"> <span class="logo">VIEW</span>
+        <div class="user-info txt-nrml"> <span class="user">Johannes Eriksen</span> / <a href="#">log out</a><Br>
+          <span class="role">Sports Illustrated</span> </div>
+        <br class="clear" />
+      </header>
+      <div id="page-content">
+        <nav class="customer-nav">
+          <li>main</li>
+          <li>/</li>
+          <li>op msg</li>
+          <li>/</li>
+          <li>tickets</li>
+          <li>/</li>
+          <li>invoices</li>
+          <li>/</li>
+          <li>approvals</li>
+          <li>/</li>
+          <li>orders</li>
+          <li>/</li>
+          <li>colleague</li>
+          <li>/</li>
+          <li>password</li>
+          <li>/</li>
+          <li class="selected">users</li>
+          <li>/</li>
+          <li>qlikview</li>
+        </nav>
+        <div class="customer-users">
+          <div class="buttons">
+            <input type="submit" name="submit" class="link-btn light-blue-bg white" value="Add User" >
+          </div>
+          <div class="search">
+            <input type="text" class="txt-bx-blue" placeholder="Type your search text here">
+            <input type="submit" name="search" value="Search" class="plain-txt-btn">
+          </div>
+          <br class="clear" />
+          <div class="table user-table">
+            <div class="row heading">
+              <div class="cell user">User</div>
+              <div class="cell group">Group</div>
+              <div class="cell leader">Leader</div>
+              <div class="cell created">Created</div>
+              <div class="cell edit"></div>
+              <br class="clear" />
+            </div>
+            <div class="row">
+              <div class="cell user">Anders Pettersen Eriksen</div>
+              <div class="cell group">User</div>
+              <div class="cell leader">Johannes Eriksen</div>
+              <div class="cell created">01.08.2014</div>
+              <div class="cell edit">Edit</div>
+              <br class="clear" />
+            </div>
+            <div class="row">
+              <div class="cell user">Anders Pettersen Eriksen</div>
+              <div class="cell group">User</div>
+              <div class="cell leader">Johannes Eriksen</div>
+              <div class="cell created">01.08.2014</div>
+              <div class="cell edit">Edit</div>
+              <br class="clear" />
+            </div>
+            <div class="row">
+              <div class="cell user">Anders Pettersen Eriksen</div>
+              <div class="cell group">User</div>
+              <div class="cell leader">Johannes Eriksen</div>
+              <div class="cell created">01.08.2014</div>
+              <div class="cell edit">Edit</div>
+              <br class="clear" />
+            </div>
+            <div class="row disabled">
+              <div class="cell user">Anders Pettersen Eriksen</div>
+              <div class="cell group">User</div>
+              <div class="cell leader">Johannes Eriksen</div>
+              <div class="cell created">01.08.2014</div>
+              <div class="cell edit">Edit</div>
+              <br class="clear" />
+            </div>
+            <div class="row">
+              <div class="cell user">Anders Pettersen Eriksen</div>
+              <div class="cell group">User</div>
+              <div class="cell leader">Johannes Eriksen</div>
+              <div class="cell created">01.08.2014</div>
+              <div class="cell edit">Edit</div>
+              <br class="clear" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section id="view2">
+    <div class="center-frame"> <span class="welcome">Other services <span class="arrow"><img src="images/view2-arrow.png" alt="" ></span></span> </div>
+  </section>
+  <section id="view3">
+    <div class="center-frame">
+      <ul class="other-services-list">
+        <li> <img src="images/netshop.png" alt="" /> <span>Netshop</span> </li>
+        <li> <img src="images/documents.png" alt="" /> <span>Documents</span> </li>
+        <li> <img src="images/information.png" alt="" /> <span>Information</span> </li>
+        <li> <img src="images/contact.png" alt="" /> <span>Contact</span> </li>
+        <li class="last"> <img src="images/my-profile.png" alt="" /> <span>My profile</span> </li>
+      </ul>
+      <br class="clear" />
+    </div>
+  </section>
+</div>
+<div id="footer-section">
+  <div class="center-frame">
+    <section class="view-customers">
+      <div class="evry-links">
+        <div class="evry-box"><img src="images/evry-logo-footer.png" alt="EVRY" /></div>
+        <ul class="links">
+          <li>Services</li>
+          <li>Industries</li>
+          <li>Customers</li>
+          <li>Insight</li>
+          <li>Career</li>
+          <li>Contact</li>
+        </ul>
+        <ul class="links">
+          <li>About EVRY</li>
+          <li>Investor</li>
+          <li>Press</li>
+        </ul>
+        <ul class="links">
+          <li>Support</li>
+          <li>Webshop</li>
+          <li class="feedback"> <a href="#" class="feedback-link  btn-popup">Feedback</a> <br>
+            <span class="view2">VIEW2</span> </li>
+        </ul>
+        <br class="clear" />
+      </div>
+      <div class="social-links">
+        <div class="evry-box"> EVRY Head office<br />
+          <br />
+          e-mail<br />
+          +4723145<span>000</span><br />
+        </div>
+        <div> <a href="#" class="facebook">Facebook</a> <a href="#" class="twitter">Twitter</a> <a href="#" class="linkedin">LinkedIn</a> </div>
+        <br class="clear" />
+      </div>
+    </section>
+  </div>
+</div>
+<div class="shadow-popup"></div>
+<div class="popup-win feedback">
+  <h1>Feedback</h1>
+  <textarea class="white-txtbx" placeholder="First name">
+    </textarea>
+  
+
+
+<br class="clear" />
+<span class="close">X</span>
+<div class="buttons right">
+  
+   <p> We appreciate your feedback. Write your input here and press send. We will answer you as soon as possible. </p>
+  
+  <a href="#" class="link-btn">Send</a><br class="clear" />
+</div>
+</p>
+</div>
+</body>
+</html>

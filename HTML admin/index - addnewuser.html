@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>VIEW - Dashboard</title>
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/fonts.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+
+	<div id="main-container">
+	    <div class="center-frame">
+        	<header id="header">
+            	<span class="logo"><span class="bold">VIEW</span>administration</span>
+                <span class="category">Sports Illustrated</span>
+                <div class="user-info txt-nrml">
+                	Michael Scheel<br>
+                    <div class="user-links"><a href="#">Change User</a> / <a href="#" class="logout">Log out</a></div>
+                </div>
+            </header>
+			
+            <ul class="nav-01">
+                <li><a href="#">op msg</a></li>
+                <li>/</li>
+                <li><a href="#">message</a></li>
+                <li>/</li>
+                <li><a href="#" class="selected">users</a></li>
+                <li>/</li>
+                <li><a href="#">links</a></li>
+                <li>/</li>
+                <li><a href="#">faq</a></li>
+                <li>/</li>
+                <li><a href="#">documents</a></li>
+                <li>/</li>
+                <li><a href="#">EVRY users</a></li>
+                <li>/</li>
+                <li><a href="#">statistics</a></li>
+            </ul>
+            <br class="clear">
+            <div id="page-content" class="new-user">
+            	<!-- Customers List Section Starts -->
+                <div  class="white-box1 with-nav">
+                <div class="whitebg-content-holder">
+                	 <h1>Add new user</h1>
+                	 
+                     <div class="box personal-details">
+                     	<h2>Personal details</h2>
+                        <div class="form-item">
+                        <label>First Name</label> <input type="text" name="fname" class="txtbx" >
+                        <label>Last Name</label> <input type="text" name="fname" class="txtbx">
+                        <label>Email</label> <input type="text" name="fname" class="txtbx" placeholder="@sportsillustrated.com">
+                        <label>Password</label> <input type="text" name="fname" class="txtbx" placeholder="FFjobn3">
+                        <p class="info">
+                        Mandatory password is generated automatically and cannot be changed.
+                        </p>
+                        </div>
+                        
+                        <div class="form-item">
+                        <label>Mobile</label> <input type="text" name="fname" class="txtbx" >
+                        <label>Leader</label> <input type="text" name="fname" class="txtbx" placeholder="Derreck Jones">
+                        <label>Username</label> <input type="text" name="fname" class="txtbx" >
+                        
+                        <p class="info">
+                        Username is for EVRY Internal purposes only.
+                        </p>
+                        </div>
+                        
+                     </div>
+                     
+                     <div class="box user-role">
+                     	<h2>User role</h2>
+                        <input type="radio" class="radio"><label>Publisher+</label><br>
+                        <input type="radio" class="radio"><label>Editor</label><br>
+                        <input type="radio" class="radio"><label>Editor+</label><br>
+                        
+                     </div>
+                     
+                     
+                     
+                     <div class="box recieve-alerts">
+                     	<h2>Receive Alerts</h2>
+                        <input type="radio" class="radio"><label>No, do not receive any alerts</label><br>
+                        <input type="radio" class="radio"><label>Yes, receive alerts on e-mail</label><br>
+                        <input type="radio" class="radio"><label>Yes, receive alerts via SMS</label><br>
+                        <input type="radio" class="radio"><label>Yes, receive both via email and SMS</label><br>
+
+                     </div>
+                     
+                     <div class="box custom-roles">
+                       <p class="title">Customized user role</p>
+                       <div>
+                            <input type="radio" class="radio"><label>OP msg</label><br>
+                            <input type="radio" class="radio"><label>Profile</label><br>
+                            <input type="radio" class="radio"><label>Tickets</label><br>
+                            <input type="radio" class="radio"><label>Invoices</label><br>
+                            <input type="radio" class="radio"><label>Shop</label><br>
+                            <input type="radio" class="radio"><label>Approvals</label><br>
+                        </div>
+                        <div>
+                            <input type="radio" class="radio"><label>Order</label><br>
+                            <input type="radio" class="radio"><label>Password</label><br>
+                            <input type="radio" class="radio"><label>Documents</label><br>
+                            <input type="radio" class="radio"><label>Contact</label><br>
+                            <input type="radio" class="radio"><label>Reporting</label><br>
+                            <input type="radio" class="radio"><label>FAQ/Wiki</label><br>
+                        </div>
+                         <div>
+                        	<input type="radio"  class="radio"><label>Alerts</label><br>
+                        </div>
+                        
+                     </div>
+                     
+                     <div class="clear"></div>
+                     
+                     	
+                        <div class="buttons bottom-right">
+                       		<input type="submit" name="submit" class="link-btn green-bg white" value="Add User" > 
+                            <br>
+                            <div class="lbl-msg"><input type="radio" class="radio"><label class="info-title">Generate e-mail to users</label></div>
+                        </div>
+                        
+                     </div>
+                </div>
+                
+                <div class="white-box2">
+                	<span class="msg-title-active old">Existing Users</span>
+                    <div class="table active-messages scrollable less-gap">
+                     	<div class="row heading">
+                        	<div class="cell twenty">User</div>
+                            <div class="cell twenty">User id</div>
+                            <div class="cell twenty">mobile number</div>
+                            <div class="cell ten">user role</div>
+                            <div class="cell ten">created</div>
+                            <div class="cell ten">deactivated</div>
+                            <div class="cell ten"></div>
+                        </div>
+                        
+                        <div class="row">
+                        	<div class="cell twenty">Danny Andersen</div>
+                            <div class="cell twenty">da@erhartsen.no</div>
+                            <div class="cell twenty"><span>+47</span> <span>35644290</span></div>
+                            <div class="cell ten">Editor+</div>
+                            <div class="cell ten">12.05.2014</div>
+                            <div class="cell ten"></div>
+                            <div class="cell ten">EDIT</div>
+                        </div> 	
+                        <div class="row">
+                        	<div class="cell twenty">Danny Andersen</div>
+                            <div class="cell twenty">da@erhartsen.no</div>
+                            <div class="cell twenty"><span>+47</span> <span>35644290</span></div>
+                            <div class="cell ten">Editor+</div>
+                            <div class="cell ten">12.05.2014</div>
+                            <div class="cell ten"></div>
+                            <div class="cell ten">EDIT</div>
+                        </div> 	
+                        <div class="row deactivated">
+                        	<div class="cell twenty">Danny Andersen</div>
+                            <div class="cell twenty">da@erhartsen.no</div>
+                            <div class="cell twenty"><span>+47</span> <span>35644290</span></div>
+                            <div class="cell ten">Editor+</div>
+                            <div class="cell ten">12.05.2014</div>
+                            <div class="cell ten">12.05.2014</div>
+                            <div class="cell ten">EDIT</div>
+                        </div> 	
+                        <div class="row">
+                        	<div class="cell twenty">Danny Andersen</div>
+                            <div class="cell twenty">da@erhartsen.no</div>
+                            <div class="cell twenty"><span>+47</span> <span>35644290</span></div>
+                            <div class="cell ten">Editor+</div>
+                            <div class="cell ten">12.05.2014</div>
+                            <div class="cell ten"></div>
+                            <div class="cell ten">EDIT</div>
+                        </div> 	
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+	                  </div>
+                    
+                    
+                    
+                    <div class="message bottom warning">PS - list of users can be very long here - all INTERNAL EVRY users to be listed</div>
+                </div>
+            </div>   
+                <!-- Customer List Section Ends -->
+            </div>
+        </div>
+    </div>
+	<footer id="footer-section">
+     <div class="center-frame">
+     		<section class="view-about" style="display:none;">
+            	<h1>About VIEW2</h1>
+				<p>
+                Welcome to VIEW, EVRY's customer portal. Once you have logged in, you will find access according to your assigned role.<br />
+                Should you have any questions, please do not hesitate to take contact with our helpdesk.<br /> They will provide you with the correct guidance.
+                </p>
+                <p>
+                Should you have any feedback or any ideas to further development, Please send them to Micheal Scheel.
+                <p>
+            </section>
+            
+            <section class="view-dashboard" style="display:none;">
+            <h1>ACTIVE message at customer</h1>
+            <p class="notification yellow">EVRY INFORMS: Customer specific notice - will only be showing if there are any customer specific alerts to be shown...</p>
+            </section>
+            
+     
+     </div>
+    </footer>
+</body>
+</html>
